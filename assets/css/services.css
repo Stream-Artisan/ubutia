@@ -278,18 +278,19 @@ h3{
 
 @media (max-width: 768px) {
   .banner, .banner1 {
-    height: 10em;
+    height: 8em; /* Reduce height for smaller screens */
     width: 100%; /* Adjust width for smaller screens */
-    padding-top: 1em;
+    padding-top: 0.5em; /* Adjust padding */
   }
 
   h2 {
-    font-size: 1.5rem; /* Reduce font size for headings */
+    font-size: 1.2rem; /* Further reduce font size for headings */
+    margin-top: 15px; /* Adjust margin */
   }
 
   .work-section {
-    width: 90vw; /* Adjust width for smaller screens */
-    padding: 20px 0;
+    width: 95vw; /* Increase width for better fit */
+    padding: 15px 0; /* Adjust padding */
   }
 
   .work-section h2 {
@@ -298,34 +299,52 @@ h3{
 
   .work-cards {
     flex-direction: column; /* Stack cards vertically */
-    gap: 15px;
+    gap: 10px; /* Reduce gap between cards */
   }
 
   .card {
     max-width: 100%; /* Make cards take full width */
-    padding: 15px;
+    padding: 10px; /* Reduce padding */
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow for smaller screens */
   }
 
   .tab, .tabcontent, .grid-container {
-    width: 90vw; /* Adjust width for smaller screens */
+    width: 95vw; /* Increase width for better fit */
   }
 
   .grid-container {
     grid-template-columns: 1fr; /* Single column layout */
-    gap: 15px;
+    gap: 10px; /* Reduce gap between grid items */
   }
 
   .why-work-with-us {
-    padding: 20px 10px;
+    padding: 15px 5px; /* Adjust padding */
   }
 
   .why-work-with-us .reasons {
     flex-direction: column; /* Stack reasons vertically */
-    gap: 15px;
+    gap: 10px; /* Reduce gap between reasons */
   }
 
   .why-work-with-us .reason {
     max-width: 100%; /* Make reasons take full width */
+  }
+
+  .footer {
+    padding: 40px 0; /* Adjust padding */
+  }
+
+  .footer .col-sm-3 {
+    flex: 0 1 100%; /* Stack columns vertically */
+    margin-bottom: 15px; /* Adjust margin */
+  }
+
+  .footer h4 {
+    font-size: 16px; /* Reduce font size */
+  }
+
+  .footer p, .footer ul, .footer a {
+    font-size: 12px; /* Reduce font size */
   }
 }
 

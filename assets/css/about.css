@@ -187,6 +187,60 @@ textarea::placeholder {
   }
 }
 
+@media (max-width: 480px) {
+  .banner {
+    height: 8em;
+    padding-top: 0.5em;
+    background-position: top;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    padding: 0 1em;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 0.3em;
+    padding: 0.3em;
+  }
+
+  .ubutia-card {
+    margin: 0.3em;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.2);
+  }
+
+  p {
+    margin-top: 1em;
+    font-size: 0.8em;
+  }
+
+  form input,
+  form textarea,
+  form select {
+    font-size: 0.8em;
+    padding: 0.4em;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer h4 {
+    font-size: 16px;
+  }
+
+  .footer p,
+  .footer ul,
+  .footer a {
+    font-size: 12px;
+  }
+
+  .footer .social-icons ul li a {
+    font-size: 16px;
+  }
+}
+
 /* Footer */
 .footer {
   background-color: #202020;

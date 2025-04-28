@@ -415,3 +415,54 @@ h2{
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 768px) {
+    .banner {
+        height: 10em;
+        padding-top: 1em;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .cards, .services, .process-steps, .project-gallery, .package-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card, .carrd, .step, .project-card, .package-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .package-card {
+        padding: 20px;
+    }
+
+    .package-card h3 {
+        font-size: 2rem;
+    }
+
+    .package-card p {
+        font-size: 1.5rem;
+    }
+
+    .package-card ul li {
+        font-size: 1.2rem;
+    }
+
+    .cta {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+}

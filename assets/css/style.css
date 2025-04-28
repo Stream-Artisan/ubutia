@@ -595,3 +595,71 @@ section{
 		margin-bottom: 60px;
 	}
 }
+
+@media (max-width: 767px) {
+	/* General adjustments */
+	body {
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 32px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	p {
+		font-size: 14px;
+	}
+
+	/* Section adjustments */
+	.section {
+		flex-wrap: wrap; /* Allow wrapping for better layout */
+		padding: 50px 15px;
+	}
+	.ubutia-card {
+		margin: 15px 0; /* Add vertical spacing between cards */
+	}
+
+	/* Navbar adjustments */
+	.navbar-ubutia {
+		font-size: 14px;
+		padding: 10px;
+	}
+
+	/* Footer adjustments */
+	.footer .row {
+		flex-direction: column; /* Stack columns vertically */
+	}
+	.footer .col-sm-3 {
+		flex: 1 1 100%; /* Take full width */
+		margin-bottom: 20px;
+	}
+
+	/* Header adjustments */
+	.header {
+		height: auto;
+		padding: 20px;
+	}
+	.intro-box {
+		height: auto;
+		padding: 20px;
+	}
+
+	/* Button adjustments */
+	.ubutia-btn {
+		padding: 10px 40px;
+		font-size: 14px;
+	}
+
+	/* Social icons adjustments */
+	.social-icons ul {
+		flex-direction: column; /* Stack icons vertically */
+		gap: 5px;
+	}
+	.social-icons ul li {
+		margin: 0 auto; /* Center align */
+	}
+}
