@@ -14,7 +14,7 @@ html, body {
 /* Banner Section */
 .banner {
   background-color: rgb(51, 51, 51);
-  background-image: url(/assets/images/about-flex-image.jpg); 
+  background-image: url('https://img.freepik.com/premium-vector/business-online-communication-abstract-social-network-connection-concept_998164-279.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

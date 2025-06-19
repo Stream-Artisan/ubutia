@@ -12,7 +12,7 @@ html, body {
 
 .banner {
     /* background-color: rgb(51, 51, 51); */
-    background-image: url('https://img.freepik.com/free-photo/web-design-concept-with-drawings_1134-77.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740');
+    background-image: url(/assets/images/w-banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ h2 {
     width: 100vw;
     padding: 100px 60px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('/assets/images/w-banner.jpg') no-repeat center center;
+                url('https://img.freepik.com/free-photo/corporate-management-strategy-solution-branding-concept_53876-167088.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;

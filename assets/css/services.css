@@ -12,7 +12,7 @@ html, body {
 
 .banner {
   background-color: rgb(51, 51, 51);
-  background-image: url(../images/about-flex-image.jpg);
+  background-image: url('https://img.freepik.com/premium-photo/service-concept-person-hand-holding-service-icon-virtual-screen_1296497-175.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740');
   background-size: cover;
   background-position: center;
   height: 15em;

@@ -350,8 +350,9 @@ section{
 
 /*Home page*/
 .header{
-	background-image: url(../images/1.jpg);
+	background-image: url('https://img.freepik.com/premium-photo/man-woman-laptop-office-with-blurry-blue-grey-transition_1134-18278.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740');
 	height: 100vh;
+  background-size: cover;
 	position: relative;
 	min-height: 659px;
 }
@@ -420,7 +421,7 @@ section{
 
 
 .ubutia-quote{
-	background-image: url(../images/3.jpg);
+	background-image: url('https://media.istockphoto.com/id/1804278489/vector/compass-in-digital-hand-business-strategic-explorer-vision-crisis-mission-path-agency.jpg?s=612x612&w=0&k=20&c=B01VwY0ceSPAu0jb-UTYLQoK9DiAr-txUYUEUk2br4g=');
 	/*padding: 120px 0;*/
 	color: #fff;
 	font-style: italic;
@@ -461,7 +462,9 @@ section{
 }
 
 .subscribe{
-	background-image: url(../images/11.jpg);
+	background-image: url('https://media.istockphoto.com/id/1371359888/photo/top-view-photo-of-open-blue-envelope-with-paper-sheet-on-isolated-pastel-blue-background-with.jpg?s=612x612&w=0&k=20&c=LTeAW5F_aHhf6L4vEsyFjKUtFko2Ju1H9UkSxhzHniQ=');
+  background-size: cover;
+  padding: 150px 0;
 }
 .subscribe .ubutia-btn{
 	margin-bottom: 0;
