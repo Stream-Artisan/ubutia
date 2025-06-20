@@ -38,6 +38,7 @@
 form {
     background-color: #f8f9fa;
     padding: 30px;
+    margin-left: 120px;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     margin-top: 20px;
@@ -133,9 +134,11 @@ form button:hover {
 
 .faq-section .accordion {
     margin-top: 20px;
+    width: fit-content;
 }
 
 .map-container {
+  box-sizing: border-box;
     margin-top: 40px;
     border: 2px solid #007bff;
     /* border-radius: 8px; */

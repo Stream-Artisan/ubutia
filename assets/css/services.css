@@ -12,16 +12,16 @@ html, body {
 
 .banner {
   background-color: rgb(51, 51, 51);
-  background-image: url('https://img.freepik.com/premium-photo/service-concept-person-hand-holding-service-icon-virtual-screen_1296497-175.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740');
+  background-image: url('https://img.freepik.com/premium-photo/male-hands-typing-computer-keyboard-service-concept_220873-10434.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740');
   background-size: cover;
   background-position: center;
-  height: 15em;
+  height: 20em;
   justify-content: center;
   display: flex;
   align-items: center;
   width: 100vw; /* Full viewport width */
   text-align: center;
-  padding-top: 2em;
+  /* padding-top: 2em; */
   animation: fadeIn 2s ease-in-out;
 }
 .banner1 {
