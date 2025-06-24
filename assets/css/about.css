@@ -13,8 +13,8 @@ html, body {
 
 /* Banner Section */
 .banner {
-  background-color: rgb(51, 51, 51);
-  background-image: url('https://img.freepik.com/premium-vector/business-online-communication-abstract-social-network-connection-concept_998164-279.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740'); 
+	background: linear-gradient(120deg, #23243a 0%, #2a2c3b 50%, #0056b3 100%);
+  /* background-image: url('https://img.freepik.com/premium-vector/business-online-communication-abstract-social-network-connection-concept_998164-279.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740');  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -261,7 +261,7 @@ textarea::placeholder {
 
 .footer h4 {
   font-size: 18px;
-  color: #51c2b9;
+  color: red;
   margin-bottom: 15px;
 }
 
@@ -284,7 +284,7 @@ textarea::placeholder {
 }
 
 .footer ul li a {
-  color: #51c2b9;
+  color: red;
   text-decoration: none;
 }
 

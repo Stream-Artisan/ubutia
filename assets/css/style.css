@@ -423,12 +423,13 @@ section{
 
 /*Home page*/
 .header{
-	background-image: url('https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740');
-	background-color: #2A2C3B;
+	/* background-image: url('https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740'); */
+	/* Enhanced gradient background for hero, content color unchanged */
+	background: linear-gradient(120deg, #23243a 0%, #2a2c3b 50%, #0056b3 100%);
 	height: 100vh;
-  background-size: cover;
+	background-size: cover;
 	position: relative;
-	min-height: 659px;
+	min-height:700px;
 }
 
 .intro-box{
@@ -495,7 +496,7 @@ section{
 
 
 .ubutia-quote{
-	background-image: url('https://media.istockphoto.com/id/1804278489/vector/compass-in-digital-hand-business-strategic-explorer-vision-crisis-mission-path-agency.jpg?s=612x612&w=0&k=20&c=B01VwY0ceSPAu0jb-UTYLQoK9DiAr-txUYUEUk2br4g=');
+	background-image: url('https://img.freepik.com/premium-vector/programming-code-coding-hacker-sign-programming-code-icon-made-with-binary-code-wireframe-hands-digital-binary-data-digital-code-matrix-background-with-digits-10-vector-illustration_127544-2661.jpg?ga=GA1.1.860952126.1749829977&semt=ais_hybrid&w=740');
 	/*padding: 120px 0;*/
 	color: #fff;
 	font-style: italic;
@@ -603,7 +604,7 @@ section{
 }
 .footer h4 {
 	font-size: 18px;
-	color: #51c2b9;
+	color: red;
 	margin-bottom: 15px;
 }
 .footer p, .footer ul, .footer a {
@@ -620,7 +621,7 @@ section{
 	margin-bottom: 10px;
 }
 .footer ul li a {
-	color: #51c2b9;
+	color: red;
 	text-decoration: none;
 }
 .footer ul li a:hover {

@@ -11,8 +11,8 @@
   }
   
   .banner {
-    background-color: rgb(51, 51, 51);
-    background-image: url(../images/contact-banner.jpg);
+	background: linear-gradient(120deg, #23243a 0%, #2a2c3b 50%, #0056b3 100%);
+    /* background-image: url(../images/contact-banner.jpg); */
     background-size: cover;
     background-position: center;
     height: 15em;
@@ -25,7 +25,7 @@
     animation: fadeIn 2s ease-in-out;
     margin-bottom: 30px;
   }
-  h2 {
+  .mt80  {
     background-color: transparent !important ;
     text-align: center;
     justify-content: center;
