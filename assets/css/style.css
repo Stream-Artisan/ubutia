@@ -162,7 +162,8 @@ section{
 	align-items: stretch; /* Align cards to stretch equally */
 }
 .ubutia-icon{
-	background:transparent url(../images/logo.png) no-repeat;
+	/* background:transparent url(../images/logo.png) no-repeat; */
+	margin-top: -15px;
     width: 187px;
     height: 68px;
 	display:block;
