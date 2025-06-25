@@ -194,9 +194,10 @@ section{
 /*ubutia Card*/
 .ubutia-card{
 	text-align: center;
-	/*margin-bottom: 45px;*/
-	flex: 1; /* Allow cards to grow and shrink equally */
-	margin: 0 10px; /* Add horizontal spacing between cards */
+	margin-bottom: 45px;
+	flex: 1;
+	margin: 0 10px; 
+	/* background-color: transparent!important; */
 }
 .ubutia-card .ubutia-card-header{
 	margin-bottom: 45px;
